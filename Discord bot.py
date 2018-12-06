@@ -19,10 +19,6 @@ async def on_message(message):
         await client.send_message(message.channel,comment)#you must define the channel as your first parameter always, and the actual comment as your second
     ##
     #between the '##' is where the bulk of your program should go
-    
-        
-
-
 
 
 client.run("YOUR TOKEN")
