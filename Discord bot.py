@@ -8,6 +8,8 @@ client = discord.Client()
 async def on_ready():
     print (f'we have logged in as {client}')
 @client.event
+
+
 async def on_message(message):
     print(f"{message.channel}:{message.author}:{message.author.name}:{message.content}")#print the message and relevant information
     
