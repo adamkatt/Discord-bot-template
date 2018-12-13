@@ -10,6 +10,7 @@ async def on_ready():
 @client.event
 
 
+
 async def on_message(message):
     print(f"{message.channel}:{message.author}:{message.author.name}:{message.content}")#print the message and relevant information
     
